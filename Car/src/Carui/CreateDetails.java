@@ -17,7 +17,7 @@ import java.io.File;
 
 /**
  *
- * @author Sachin
+ * @author Sarvesh
  */
 public class CreateDetails extends javax.swing.JPanel {
 
@@ -340,10 +340,7 @@ public class CreateDetails extends javax.swing.JPanel {
         if (p == JFileChooser.APPROVE_OPTION){
             File selected_file = filechooser.getSelectedFile();
             path_selected_file_photo = selected_file.getAbsolutePath();
-            //JOptionPane.showMessageDialog(null, selected_Image_Path);
-            //ImageIcon icn = new ImageIcon(selected_Image_Path);
             ImageIcon icn = new ImageIcon(new ImageIcon(path_selected_file_photo).getImage().getScaledInstance(238, 207,Image.SCALE_DEFAULT));
-            //Image imFit = icn.getImage().getScaledInstance(icon.getWidth(), icon.getHeight(), Image.SCALE_SMOOTH);
             icon.setIcon(icn);
             
             
@@ -372,19 +369,19 @@ public class CreateDetails extends javax.swing.JPanel {
         String validationMessage = "";
          if(brand.getText().equals("")){
              flag = 1;
-            //JOptionPane.showMessageDialog(null,"Name is required");
+            
             validationMessage = "Name is required";
         } 
            
           if((email.getText() != "@" || email.getText() != ".")) {
               flag = 1;
-              //JOptionPane.showMessageDialog(null, "Please enter a valid email", "Error", JOptionPane.ERROR_MESSAGE);
+              
               validationMessage = validationMessage + "\n Please enter a valid email";
             }
           
              if(icon.getIcon() == null){
               flag = 1;
-            //JOptionPane.showMessageDialog(null,"Profile Photo is required");
+            
             validationMessage = validationMessage + "\n Profile Photo is required";
          }
              

@@ -6,7 +6,7 @@ package Carinfo;
 
 /**
  *
- * @author Sachin
+ * @author Sarvesh
  */
 public class Servicerecord {
     private int mileage;

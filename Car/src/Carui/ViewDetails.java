@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.ImageIcon;
 /**
  *
- * @author Sachin
+ * @author Sarvesh
  */
 public class ViewDetails extends javax.swing.JPanel {
 
