@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Fax" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jbrand">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="brand:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="brand">
+    </Component>
+    <Component class="javax.swing.JTextField" name="model">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jmodel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="model:"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[675, 522]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jservicerecord" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jaddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jemail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jssn" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlicense" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jwarrantyyear" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jownername" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jtelephone" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlicenseplate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jseatsno" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jengineno" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jyear" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jcolor" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jmodel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jbrand1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="color" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                  <Component id="ssn" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                  <Component id="model1" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="405" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="email" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                          <Component id="licenseplate" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                          <Component id="seatsno" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Component id="warrantyyear" alignment="1" min="-2" pref="153" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                      <Component id="telephone" alignment="1" min="-2" pref="153" max="-2" attributes="0"/>
+                                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="brand1" alignment="0" pref="153" max="32767" attributes="0"/>
+                                                          <Component id="year" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="engineno" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="ownername" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="license" alignment="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Component id="address" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Component id="icon" min="-2" pref="269" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="brand1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbrand1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jmodel1" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="model1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jcolor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="color" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="year" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jyear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="engineno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jengineno" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jseatsno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seatsno" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlicenseplate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="licenseplate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jtelephone" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="telephone" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jownername" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="ownername" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jemail" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="email" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="icon" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jaddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="address" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jssn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="ssn" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jlicense" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="license" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jwarrantyyear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="warrantyyear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="94" max="-2" attributes="0"/>
+                  <Component id="jservicerecord" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Fax" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="View"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jbrand1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="brand:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="brand1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="brand1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jmodel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="model:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="model1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jcolor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="color:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="color">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jyear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="year :  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="year">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jengineno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="engine no:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="engineno">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enginenoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jseatsno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seatsno:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="seatsno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlicenseplate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="licenseplate:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="licenseplate">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jtelephone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="telephone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="telephone">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jownername">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ownername:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ownername">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jemail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="email">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jaddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="address">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jssn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ssn:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ssn">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlicense">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="license:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="license">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jservicerecord">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="service record:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jwarrantyyear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="warranty year:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="warrantyyear">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="sr">
+          <Properties>
+            <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="4">
+                <Column editable="true" title="mileage" type="java.lang.Object"/>
+                <Column editable="true" title="limit" type="java.lang.Object"/>
+                <Column editable="true" title="odometer" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="icon">
+    </Component>
+  </SubComponents>
+</Form>
