@@ -57,6 +57,8 @@ public class Createcars extends javax.swing.JPanel {
         availability = new javax.swing.JCheckBox();
         seats = new javax.swing.JLabel();
 
+        setForeground(new java.awt.Color(51, 255, 51));
+
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("               Create Details");
 
@@ -109,9 +111,12 @@ public class Createcars extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(combo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Maintainencevalid)
-                    .addComponent(availability)
                     .addComponent(name, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addComponent(availability)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Submit))
                         .addComponent(manufacturer, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 202, Short.MAX_VALUE)
                         .addComponent(modelno, javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(company, javax.swing.GroupLayout.Alignment.LEADING)
@@ -123,10 +128,6 @@ public class Createcars extends javax.swing.JPanel {
                 .addGap(263, 263, 263)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 264, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Submit)
-                .addGap(282, 282, 282))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -168,10 +169,10 @@ public class Createcars extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addComponent(Maintainencevalid)
                 .addGap(28, 28, 28)
-                .addComponent(availability)
-                .addGap(18, 18, 18)
-                .addComponent(Submit)
-                .addContainerGap(45, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(availability)
+                    .addComponent(Submit))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -257,16 +258,22 @@ public class Createcars extends javax.swing.JPanel {
 
     private int validateInput() {
         int flag = 0;
-         if(name.getText().equals("")){
-             flag = 1;
-            JOptionPane.showMessageDialog(null,"Name is required");
-        } 
          
+         boolean isDuplicate = false;
+         for(Cars cars: hist.getHist()){
+            if(serialno.getText().equals(cars.getSerialno())){
+                isDuplicate = true;
+        }
+        }
        
           if(serialno.getText().equals("")){
             flag = 1;
               JOptionPane.showMessageDialog(null,"Serial Number is required");
         } 
+          if(isDuplicate == true){
+            flag = 1;
+              JOptionPane.showMessageDialog(null,"Please enter a unique serial number", "Error", JOptionPane.ERROR_MESSAGE);
+        }
            
           if (manufacturer.getText().equals("")) {
               flag = 1;
@@ -282,13 +289,23 @@ public class Createcars extends javax.swing.JPanel {
                 flag =1;
             JOptionPane.showMessageDialog(null,"Company name is required");
         } 
+            for(Cars cars: hist.getHist()){
+            if(city.getText().equals(cars.getCity())){
+                isDuplicate = true;
+        }
+        }
             if(city.getText().equals("")){
                 flag =1;
             JOptionPane.showMessageDialog(null,"City is required");
         } 
-            if(modelno.getText().equals("")){
+            if(isDuplicate == true){
+            flag = 1;
+              JOptionPane.showMessageDialog(null,"Please enter unique city", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+            String mno = modelno.getText();
+            if(mno.length() > 10){
                 flag =1;
-            JOptionPane.showMessageDialog(null,"Please enter a valid Model number");
+            JOptionPane.showMessageDialog(null,"Model number should not exceed more than 10", "Error", JOptionPane.ERROR_MESSAGE);
         } 
   
             return flag;
