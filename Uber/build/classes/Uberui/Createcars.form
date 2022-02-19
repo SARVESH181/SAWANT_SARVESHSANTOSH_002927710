@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Company" max="32767" attributes="0"/>
+                      <Component id="Carname" min="-2" max="-2" attributes="0"/>
+                      <Component id="Serialno" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Modelno" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Year" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="City" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="Manufacturer" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="seats" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="combo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="Maintainencevalid" min="-2" max="-2" attributes="0"/>
+                  <Component id="availability" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="name" alignment="0" min="-2" pref="202" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="manufacturer" alignment="0" pref="202" max="32767" attributes="0"/>
+                      <Component id="modelno" alignment="0" max="32767" attributes="0"/>
+                      <Component id="company" alignment="0" max="32767" attributes="0"/>
+                      <Component id="year" alignment="0" max="32767" attributes="0"/>
+                      <Component id="city" alignment="0" max="32767" attributes="0"/>
+                      <Component id="serialno" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="263" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="178" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="264" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="Submit" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="282" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="38" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Carname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="name" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Company" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="company" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Year" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="year" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="City" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="city" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Serialno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="serialno" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Modelno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modelno" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Manufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="manufacturer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="combo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="seats" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="Maintainencevalid" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="availability" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="Submit" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="               Create Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Carname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carname"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Company">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Company"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Year">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="City">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="name">
+    </Component>
+    <Component class="javax.swing.JTextField" name="company">
+    </Component>
+    <Component class="javax.swing.JTextField" name="year">
+    </Component>
+    <Component class="javax.swing.JTextField" name="city">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Serialno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serialno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="serialno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Modelno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modelno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Manufacturer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="manufacturer">
+    </Component>
+    <Component class="javax.swing.JButton" name="Submit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="combo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Maintainencevalid">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maintainencevalid"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="availability">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Availability"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="seats">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seats"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
