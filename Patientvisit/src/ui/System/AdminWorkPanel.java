@@ -53,6 +53,7 @@ public class AdminWorkPanel extends javax.swing.JPanel {
         btnPatient1 = new javax.swing.JButton();
         lblTitle = new javax.swing.JLabel();
         btnEncounter = new javax.swing.JButton();
+        AbnormalData = new javax.swing.JButton();
 
         jPanel1.setPreferredSize(new java.awt.Dimension(650, 600));
 
@@ -88,6 +89,13 @@ public class AdminWorkPanel extends javax.swing.JPanel {
             }
         });
 
+        AbnormalData.setText("Abnormal Data");
+        AbnormalData.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AbnormalDataActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -103,7 +111,8 @@ public class AdminWorkPanel extends javax.swing.JPanel {
                     .addComponent(btnPatient, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
                     .addComponent(btnPerson, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
                     .addComponent(btnPatient1, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
-                    .addComponent(btnEncounter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnEncounter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(AbnormalData, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -121,6 +130,8 @@ public class AdminWorkPanel extends javax.swing.JPanel {
                 .addComponent(btnPatient1)
                 .addGap(18, 18, 18)
                 .addComponent(btnEncounter)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(AbnormalData)
                 .addContainerGap())
         );
 
@@ -196,8 +207,16 @@ public class AdminWorkPanel extends javax.swing.JPanel {
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnEncounterActionPerformed
 
+    private void AbnormalDataActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AbnormalDataActionPerformed
+        Abnormaldata data = new Abnormaldata(userProcessContainer, vitals, encou, patient_directory,person_directory);
+        userProcessContainer.add("ManageAbnormal",data);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.next(userProcessContainer);
+    }//GEN-LAST:event_AbnormalDataActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton AbnormalData;
     private javax.swing.JButton btnEncounter;
     private javax.swing.JButton btnPatient;
     private javax.swing.JButton btnPatient1;

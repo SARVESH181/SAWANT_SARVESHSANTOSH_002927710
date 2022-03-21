@@ -20,8 +20,17 @@ public class Vitals {
     private int temperature;
     private Date date;
     private int patientId;
+    private String community;
     List<Integer> list=new ArrayList<Integer>(); 
     private int encounterNum;
+
+    public String getCommunity() {
+        return community;
+    }
+
+    public void setCommunity(String community) {
+        this.community = community;
+    }
 
     public int getEncounterNum() {
         return encounterNum;
